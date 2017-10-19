@@ -1,0 +1,318 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-06 08:47:43
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-11 09:02:00
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	border-style: none;
+	text-decoration: none;
+	
+}
+body{
+	font-family: "微软雅黑";
+}
+.head{
+	width: 1349px;
+	height: auto;
+	background: #fff;
+}
+.head img{
+	width: 1349px;
+	height: 600px;
+	
+}
+.zhong{
+	width: 1220px;
+	height: 144px;
+	background: rgb(0, 0, 0.5);
+	position: absolute;
+	top: 20px;
+	left: 48px;
+}
+.zhong-left{
+	width: 50px;
+	height:50px;
+	background:rgb(0, 0, 0.5);
+	margin-top: 50px;
+	margin-left: 20px;
+	display: inline-block;
+}
+.zhong-left ul{
+	width: 50px;
+	height: 50px;
+}
+.zhong-right{
+	width: 400px;
+	height: 46px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+.zhong-right li{
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+.zhong-right li a{
+	font-size:16px;
+	color: rgb(255, 255, 255);
+}
+.zhong-right li a:hover{
+	color: #cdcdcd;
+}
+.xia{
+	width: 1220px;
+	height: 144px;
+	background: rgb(0, 0, 0.5);
+	position: absolute;
+	top: 200px;
+}
+.xia span{
+	width: 387px;
+	height: 107px;
+	background: rgb(0, 0, 0.5);
+	text-align: center;
+	line-height: 107px;
+	margin-left: 390px;
+	font-family: 'PT Sans'; 
+	font-size: 96px;
+	color: rgb(255, 255, 255);
+}
+.xia p{
+	width: 1197px;
+	height: 37px;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	margin-top: 20px;
+}
+.spacing{
+	width: 1309px;
+	height: 446px;
+	background: #fff;
+	margin: auto;
+}
+.spacing ul{
+	width: 1200px;
+	height: 446px;
+	background: #fff;
+	float: right;
+}
+.spacing ul .tt{
+	width: 545px;
+	height: 446px;
+	background: #fff;
+	display: inline-block;
+}
+.element{
+	width: 545px;
+	height: 205px;
+	background: #fff;
+	margin-top: 100px;
+}
+.element span{
+width: 542px;
+height: 130px;
+font-size: 36px;
+font-family: 'Times New Roman',Times,serif;
+color: inherit;
+margin-top: 50px;
+display: inline-block;
+}
+.element .rr{
+	width: 545px;
+	height: 120px;
+	background: #fff;
+	display: inline-block;
+	margin-top: 35px;
+}
+.rr span{
+	color: rgb(140, 140, 140);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+.spacing ul .dd{
+	width: 655px;
+	height: 446px;
+	background:#fff;
+	float: right;
+}
+.spacing ul .dd img{
+	width: 655px;
+	height: 446px;
+}
+.pop{
+	width: 1336px;
+	height: 319px;
+	background: yellow;
+	margin: auto;
+}
+.do-block{
+	width: 666px;
+	height: 319px;
+	background: red;
+	display: inline-block;
+
+
+}
+.do-block ul{
+	width: 333px;
+	height: 319px;
+	background: pink;
+	float: left;
+}
+.do-block ul img{
+	width: 333px;
+	height: 319px;
+}
+.do-red{
+	width: 670px;
+	height: 319px;
+	background:#000;
+	float:right;
+}
+.do-red .one{
+	width: 670px;
+	height: 108px;
+	margin-top: 100px;
+
+}
+.do-red .one span{
+	width: 532px;
+	height: 100px;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	font-family: 'Times New Roman',Times,serif;
+	margin-left: 65px;
+	text-align: center;
+}
+.do-red .one .ff{
+	width: 532px;
+	height: auto;
+	display: inline-block;
+	margin-left: 65px;
+	margin-top: 10px;
+}
+.tow{
+	width: 670px;
+	height: 80px;
+	margin-top: 13px;
+}
+.tow span{
+	width: 670px;
+	height: auto;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	text-align: center;
+	display: block;
+	line-height: 27px;
+}
+.do-pc{
+	width: 1336px;
+	height: 319px;
+	margin: auto;
+	margin-bottom: 100px;
+}
+.pc-left{
+	width: 670px;
+	height: 319px;
+	display: inline-block;
+}
+
+.ss{
+	width: 655px;
+	height: 319px;
+	margin: auto;
+
+}
+.ss h2{
+	width: 655px;
+	height: 122px;
+	display: inline-block;
+	margin-top: 100px;
+}
+.ss h2 span{
+	width: 626px;
+	height: auto;
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 30px;
+	color: rgb(61, 61, 61);
+	line-height: 65px;
+	display: inline-block;
+	text-align: center;
+}
+.pc-right{
+	width: 666px;
+	height: 319px;
+	float: right;
+
+}
+.pc-right img{
+	width: 666px;
+	height: 319px;
+}
+.max{
+	width: 1336px;
+	height: 81px;
+	margin: auto;
+}
+.max ul{
+	width: 445px;
+	height: 81px;
+	float: left;
+}
+.max ul h6{
+	width: 445px;
+	height: 25px;
+
+
+}
+.max ul h6 span{
+	width: 400px;
+	height: 20px;
+	font-size: 18px;
+	color:#rgb(0, 0, 0);
+	font-family: 'Times New Roman',Times,serif;
+margin-left: 200px;
+margin-top: 10px;
+display: block;
+
+}
+.hh{
+	width: 445px;
+	height: 25px;
+	margin-top: 16px;
+	font-size: 14px;
+	text-align: center;
+}
+.dibu{
+	width: 100%;
+	height: 116px;
+	background: #000;
+	margin-top: 120px;
+}
+.dibu .pp{
+	width: 1200px;
+	height: 21px;
+	background: rgb(0, 0, 0.5);
+	position: absolute;
+	top: 2037px;
+	left: 100px;
+}
+.dibu .pp span{
+	width: 181px;
+	height: 16px;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 500px;
+}

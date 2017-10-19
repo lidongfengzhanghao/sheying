@@ -1,0 +1,132 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-05 17:35:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-11 08:57:56
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	border-style: none;
+	text-decoration: none;
+	
+}
+body{
+	font-family: "微软雅黑";
+}
+.head{
+	width: 1349px;
+	height: auto;
+	background: #fff;
+}
+.head img{
+	width: 1349px;
+	height: 600px;
+}
+.zhong{
+	width: 1220px;
+	height: 144px;
+	background: rgb(0, 0, 0.5);
+	position: absolute;
+	top: 20px;
+	left: 48px;
+}
+.zhong-left{
+	width: 50px;
+	height:50px;
+	background:rgb(0, 0, 0.5);
+	margin-top: 50px;
+	margin-left: 20px;
+	display: inline-block;
+}
+.zhong-left ul{
+	width: 50px;
+	height: 50px;
+}
+.zhong-right{
+	width: 400px;
+	height: 46px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+.zhong-right li{
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+.zhong-right li a{
+	font-size:16px;
+	color: rgb(255, 255, 255);
+}
+.zhong-right li a:hover{
+	color: #cdcdcd;
+}
+.xia{
+	width: 1220px;
+	height: 144px;
+	background: rgb(0, 0, 0.5);
+	position: absolute;
+	top: 250px;
+}
+.xia span{
+	width: 387px;
+	height: 107px;
+	background: rgb(0, 0, 0.5);
+	text-align: center;
+	line-height: 107px;
+	margin-left: 390px;
+	font-family: 'PT Sans'; 
+	font-size: 96px;
+	color: rgb(255, 255, 255);
+}
+.wenzi{
+	width: 1200px;
+	height: 114px;
+	background:rgb(0, 0, 0.5); 
+	margin: auto;
+	margin-top: 100px;
+}
+.wenzi span{
+	width: 593px;
+	height: 40px;
+}
+.wen{
+	width: 1200px;
+	height: 274px;
+	background:rgb(255,255,255);
+	margin: auto;
+	margin-top: 49px;
+}
+.wen p{
+	
+	background: rgb(255,255,255);
+	font-family: 'PT Sans', sans-serif; 
+      font-size: 16px; 
+      color: rgb(140,140,140);
+}
+.dibu{
+	width: 100%;
+	height: 116px;
+	background: #000;
+	margin-top: 120px;
+}
+.dibu .pp{
+	width: 1200px;
+	height: 21px;
+	background: rgb(0, 0, 0.5);
+	position: absolute;
+	top: 1315px;
+	left: 50px;
+}
+.dibu .pp span{
+	width: 181px;
+	height: 16px;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 500px;
+}
